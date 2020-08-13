@@ -12,6 +12,11 @@
 
 口令设置较弱，可直接爆破。
 
+```xml
+conf/tomcat-users.xml(添加一行即可)
+<user username="tomcat" password="tomcat" roles="manager-status,manager-gui,manager-script,manager-jmx"/>
+```
+
 ##### 漏洞检测
 
 1、URL访问
