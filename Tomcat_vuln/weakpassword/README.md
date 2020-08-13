@@ -20,17 +20,17 @@
 http://192.168.3.167:8080/
 ```
 
-![image-20200813163502206](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813163502206.png)
+![image-20200813163502206](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813163502206.png)
 
 2、点击“Server Status”
 
-![image-20200813163542988](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813163542988.png)
+![image-20200813163542988](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813163542988.png)
 
 3、尝试爆破
 
 [脚本](https://github.com/magicming200/tomcat-weak-password-scanner)
 
-![image-20200813163718308](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813163718308.png)
+![image-20200813163718308](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813163718308.png)
 
 4、生成war包
 
@@ -38,11 +38,11 @@ http://192.168.3.167:8080/
 ➜  server jar -cvf  shell.war shell.jsp
 ```
 
-![image-20200813163839974](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813163839974.png)
+![image-20200813163839974](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813163839974.png)
 
 5、部署war包
 
-![image-20200813164753751](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813164753751.png)
+![image-20200813164753751](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813164753751.png)
 
 6、访问
 
@@ -50,9 +50,9 @@ http://192.168.3.167:8080/
 http://192.168.3.167:8080/shell/shell.jsp
 ```
 
-![image-20200813164812341](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813164812341.png)
+![image-20200813164812341](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813164812341.png)
 
-![image-20200813164838466](https://github.com/si1ent-le/vuln-all/Tomcat_vuln/weakpassword/images/image-20200813164838466.png)
+![image-20200813164838466](https://github.com/si1ent-le/vuln-all/blob/master/Tomcat_vuln/weakpassword/images/image-20200813164838466.png)
 
 ##### 漏洞修复
 
